@@ -13,9 +13,10 @@ export default function App() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <Header />
-      
+
       {/* Main Content */}
       <main>
+
         {/* Hero Banner Section */}
         <section className="bg-gradient-to-br from-green-50 to-blue-50 border-b-4 border-green-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
