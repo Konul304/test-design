@@ -5,7 +5,7 @@ import { ChevronDown, Globe, User, LogIn } from 'lucide-react';
 export const Header = () => {
   const menuItems = [
     'About Us',
-    'OTS-Made', 
+    'OTS-Made',
     'Export Requests',
     'Events',
     'Country Stats',
@@ -23,15 +23,15 @@ export const Header = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center space-x-3">
               {/* Flag Logo */}
-              <div className="flex items-center bg-gradient-to-r from-green-600 to-white p-2 rounded-lg shadow-sm">
+              {/* <div className="flex items-center bg-gradient-to-r from-green-600 to-white p-2 rounded-lg shadow-sm">
                 <div className="flex space-x-1">
                   <span className="text-sm">🇹🇷</span>
                   <span className="text-sm">🇦🇿</span>
                   <span className="text-sm">🇰🇿</span>
                   <span className="text-sm">🇺🇿</span>
                 </div>
-              </div>
-              <div>
+              </div> */}
+              <div style={{ marginRight: '50px' }}>
                 <h1 className="text-2xl font-bold text-green-600">DAD</h1>
                 <p className="text-xs text-gray-500 -mt-1">Digital Agro Data</p>
               </div>

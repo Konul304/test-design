@@ -33,7 +33,7 @@ export const MarketAnalytics = () => {
     <section className="py-12 bg-gradient-to-br from-blue-50 to-green-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-blue-700 mb-4">Weekly Overview / Market & Trade Analytics</h2>
+          <h2 className="text-blue-700 mb-4" style={{ fontSize: '24px' }}>Weekly Overview / Market & Trade Analytics</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Comprehensive market analysis and trade statistics for informed decision making
           </p>
@@ -122,11 +122,10 @@ export const MarketAnalytics = () => {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-2xl font-bold text-blue-600">${item.price}</span>
-                    <div className={`flex items-center space-x-1 ${
-                      item.trend === 'up' ? 'text-green-600' : 'text-red-600'
-                    }`}>
-                      {item.trend === 'up' ? 
-                        <TrendingUp className="w-4 h-4" /> : 
+                    <div className={`flex items-center space-x-1 ${item.trend === 'up' ? 'text-green-600' : 'text-red-600'
+                      }`}>
+                      {item.trend === 'up' ?
+                        <TrendingUp className="w-4 h-4" /> :
                         <TrendingDown className="w-4 h-4" />
                       }
                       <span className="text-sm font-medium">

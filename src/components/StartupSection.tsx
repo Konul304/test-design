@@ -55,7 +55,7 @@ export const StartupSection = () => {
     <section className="py-12 bg-gradient-to-br from-green-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-green-700 mb-4 flex items-center justify-center gap-2">
+          <h2 className="text-green-700 mb-4 flex items-center justify-center gap-2" style={{ fontSize: '24px' }}>
             <Rocket className="w-6 h-6" />
             Agricultural Startup Investment Opportunities
           </h2>
@@ -113,7 +113,7 @@ export const StartupSection = () => {
                     <span className="font-medium">{startup.progress}%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div 
+                    <div
                       className="bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full transition-all duration-500"
                       style={{ width: `${startup.progress}%` }}
                     />

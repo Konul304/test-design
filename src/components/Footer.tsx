@@ -6,9 +6,9 @@ const memberCountries = [
   { name: 'Kazakhstan', flag: '🇰🇿' },
   { name: 'Kyrgyzstan', flag: '🇰🇬' },
   { name: 'Turkey', flag: '🇹🇷' },
-  { name: 'Turkmenistan', flag: '🇹🇲' },
+  // { name: 'Turkmenistan', flag: '🇹🇲' },
   { name: 'Uzbekistan', flag: '🇺🇿' },
-  { name: 'Hungary', flag: '🇭🇺' }
+  // { name: 'Hungary', flag: '🇭🇺' }
 ];
 
 const quickLinks = [
@@ -47,9 +47,9 @@ export const Footer = () => {
                 OTS
               </div>
             </div>
-            
+
             <p className="text-gray-300 mb-6 max-w-md">
-              The central agricultural data platform connecting Turkic States through innovative 
+              The central agricultural data platform connecting Turkic States through innovative
               digital solutions for sustainable agricultural development and trade facilitation.
             </p>
 
@@ -58,7 +58,7 @@ export const Footer = () => {
               <h4 className="text-green-400 mb-3">Member States</h4>
               <div className="flex flex-wrap gap-3">
                 {memberCountries.map((country) => (
-                  <div 
+                  <div
                     key={country.name}
                     className="flex items-center space-x-2 bg-gray-800 px-3 py-2 rounded-full hover:bg-gray-700 transition-colors cursor-pointer"
                   >
@@ -77,11 +77,11 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">+90 312 123 4567</span>
+                <span className="text-sm">+94 125 213 494</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <MapPin className="w-4 h-4" />
-                <span className="text-sm">Ankara, Turkey</span>
+                <span className="text-sm">Baku, Azerbaijan</span>
               </div>
             </div>
           </div>
@@ -92,8 +92,8 @@ export const Footer = () => {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link}>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="text-gray-300 hover:text-green-400 text-sm transition-colors"
                   >
                     {link}
@@ -109,8 +109,8 @@ export const Footer = () => {
             <ul className="space-y-2">
               {resources.map((resource) => (
                 <li key={resource}>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     className="text-gray-300 hover:text-green-400 text-sm transition-colors"
                   >
                     {resource}

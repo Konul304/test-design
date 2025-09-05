@@ -90,7 +90,7 @@ export const AgroClimateMonitor = () => {
     <section className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-blue-700 mb-4">Agro-Climate Monitor</h2>
+          <h2 className="text-blue-700 mb-4" style={{ fontSize: '24px' }}>Agro-Climate Monitor</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Real-time weather conditions and agricultural impact analysis across member countries
           </p>

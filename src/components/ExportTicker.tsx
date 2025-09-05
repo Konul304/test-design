@@ -57,8 +57,8 @@ export const ExportTicker = () => {
   return (
     <div className="bg-gradient-to-r from-blue-50 to-green-50 py-6 my-8 rounded-lg shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h3 className="text-center mb-4 text-green-700">Real-time Export Requests</h3>
-        
+        <h3 className="text-center mb-4 text-green-700" style={{ fontSize: '24px' }}>Real-time Export Requests</h3>
+
         <div className="relative overflow-hidden">
           <div className="flex animate-marquee space-x-8">
             {[...exportRequests, ...exportRequests].map((request, index) => (

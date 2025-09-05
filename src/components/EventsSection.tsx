@@ -6,7 +6,7 @@ import { Calendar, MapPin, Users } from 'lucide-react';
 const upcomingEvents = [
   {
     id: 1,
-    title: 'Agriculture Startup School',
+    title: 'KZ Agriculture Startup School',
     date: '22 August 2025',
     location: 'Almaty, Kazakhstan',
     description: 'Innovation program for agtech entrepreneurs across Turkic states',
@@ -17,7 +17,7 @@ const upcomingEvents = [
   },
   {
     id: 2,
-    title: 'Pomegranate Festival',
+    title: 'AZ Pomegranate Festival',
     date: '30 August 2025',
     location: 'Baku, Azerbaijan',
     description: 'Celebrating pomegranate harvest and export opportunities',
@@ -28,7 +28,7 @@ const upcomingEvents = [
   },
   {
     id: 3,
-    title: 'Regional Export Forum',
+    title: 'UZ Regional Export Forum',
     date: '15 September 2025',
     location: 'Tashkent, Uzbekistan',
     description: 'Strategic discussions on agricultural trade expansion',
@@ -39,7 +39,7 @@ const upcomingEvents = [
   },
   {
     id: 4,
-    title: 'Digital Agriculture Conference',
+    title: 'TR Digital Agriculture Conference',
     date: '28 September 2025',
     location: 'Istanbul, Turkey',
     description: 'Latest trends in agricultural technology and data analytics',
@@ -50,7 +50,7 @@ const upcomingEvents = [
   },
   {
     id: 5,
-    title: 'Organic Farming Workshop',
+    title: 'KG Organic Farming Workshop',
     date: '5 October 2025',
     location: 'Bishkek, Kyrgyzstan',
     description: 'Sustainable farming practices and certification processes',
@@ -61,7 +61,7 @@ const upcomingEvents = [
   },
   {
     id: 6,
-    title: 'Cotton Trade Summit',
+    title: 'TM Cotton Trade Summit',
     date: '12 October 2025',
     location: 'Ashgabat, Turkmenistan',
     description: 'Cotton industry developments and market opportunities',
@@ -77,9 +77,9 @@ export const EventsSection = () => {
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-green-700 mb-4">Upcoming Events & Announcements</h2>
+          <h2 className="text-green-700 mb-4" style={{ fontSize: '24px' }}>Upcoming Events & Announcements</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Stay updated with the latest agricultural events, conferences, and opportunities across Turkic member states
+            Stay updated with the latest agricultural events, conferences, and opportunities across Turkic Member States
           </p>
         </div>
 
@@ -111,18 +111,18 @@ export const EventsSection = () => {
                     <MapPin className="w-4 h-4 mr-2 text-red-500" />
                     {event.location}
                   </div>
-                  <p className="text-sm text-gray-700 line-clamp-3">
+                  <p className="text-sm text-gray-700 line-clamp-3" style={{ height: '40px' }}>
                     {event.description}
                   </p>
                   <div className="flex gap-2 mt-4">
                     <Button variant="outline" size="sm" className="flex-1 hover:bg-green-50 hover:border-green-300 transition-all duration-200">
                       Learn More
                     </Button>
-                    {event.hasInvestButton && (
+                    {/* {event.hasInvestButton && (
                       <Button size="sm" className="flex-1 bg-green-600 hover:bg-green-700 text-white hover:shadow-lg transition-all duration-200">
                         💰 Invest Now
                       </Button>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </CardContent>
