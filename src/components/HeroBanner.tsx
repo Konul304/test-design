@@ -63,11 +63,11 @@ export const HeroBanner = () => {
             className="w-full h-full object-cover"
           /> */}
           <div className="absolute inset-0 bg-black bg-opacity-30" style={{
-            background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${slide?.image})`, backgroundSize: 'cover', backgroundPosition: 'center',
+            background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${slide?.image})`, backgroundSize: 'cover', backgroundPosition: 'center top 55%',
             backgroundRepeat: 'no-repeat',
           }} />
-          <div className="absolute inset-0 flex items-center justify-center ">
-            <div className="text-center text-white max-w-4xl px-6">
+          <div className="absolute inset-0 flex  justify-center ">
+            <div className="text-center text-white max-w-4xl px-6 " style={{ marginTop: '185px' }}>
               <h2 className="text-4xl mb-4">{slide.title}</h2>
               <p className="text-xl mb-6 text-gray-200">{slide.subtitle}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
