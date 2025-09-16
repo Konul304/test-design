@@ -41,7 +41,7 @@ const upcomingEvents = [
     id: 4,
     title: 'TR Digital Agriculture Conference',
     date: '28 September 2025',
-    location: 'Istanbul, Turkey',
+    location: 'Istanbul, Turkiye',
     description: 'Latest trends in agricultural technology and data analytics',
     attendees: 400,
     type: 'Conference',

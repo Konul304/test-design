@@ -38,7 +38,7 @@ const climateData = [
     icon: Sun
   },
   {
-    country: 'Turkey',
+    country: 'Turkiye',
     flag: '🇹🇷',
     temperature: '26°C',
     rainfall: 'Normal',
@@ -131,8 +131,8 @@ export const AgroClimateMonitor = () => {
                   </div>
 
                   {/* Alert Badge */}
-                  <Badge 
-                    variant="outline" 
+                  <Badge
+                    variant="outline"
                     className={`w-full justify-center py-2 ${getSeverityColor(data.severity)}`}
                   >
                     {data.severity === 'warning' && <AlertTriangle className="w-4 h-4 mr-1" />}

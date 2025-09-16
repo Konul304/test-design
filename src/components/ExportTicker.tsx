@@ -29,7 +29,7 @@ const exportRequests = [
   },
   {
     id: 4,
-    country: 'Turkey',
+    country: 'Turkiye',
     flag: '🇹🇷',
     product: 'Dried Fruits',
     quantity: '150 tons',

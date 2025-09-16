@@ -37,7 +37,7 @@ const startupOpportunities = [
   {
     id: 3,
     name: 'OrganicFruit Hub',
-    country: 'Turkey',
+    country: 'Turkiye',
     flag: '🇹🇷',
     sector: 'Food Tech',
     fundingGoal: '300K',

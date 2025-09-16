@@ -5,7 +5,7 @@ const memberCountries = [
   { name: 'Azerbaijan', flag: '🇦🇿' },
   { name: 'Kazakhstan', flag: '🇰🇿' },
   { name: 'Kyrgyzstan', flag: '🇰🇬' },
-  { name: 'Turkey', flag: '🇹🇷' },
+  { name: 'Turkiye', flag: '🇹🇷' },
   // { name: 'Turkmenistan', flag: '🇹🇲' },
   { name: 'Uzbekistan', flag: '🇺🇿' },
   // { name: 'Hungary', flag: '🇭🇺' }
